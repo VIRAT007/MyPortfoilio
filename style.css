@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-weight: 100;
+    background: radial-gradient(#1900ff,#111422); 
+    animation-name: bg_anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  animation-timing-function: linear;  
+  }
+
+/* @keyframes bg_anim{
+  10% {background-color: radial-gradient(#ff0505,#000000)}
+  20% {background-color: radial-gradient(#ff9b05,#000000)}
+  30% {background-color: radial-gradient(#fbff05,#000000)}
+  40% {background-color: radial-gradient(#93ff05,#000000)}
+  50% {background-color: radial-gradient(#13c503,#000107)}
+  60% {background-color: radial-gradient(#03c595,#01030f)}
+  70% {background-color: radial-gradient(#0320c5,#00020a)}
+  80% {background-color: radial-gradient(#9803c5,#01061f)}
+  90% {background-color: radial-gradient(#c50395,#000002)}
+  100% {background-color: radial-gradient(#c50303,#00020c)}
+} */
+
+/* @keyframes bg_anim {
+  0%  {background: radial-gradient(rgb(255, 0, 0),rgb(255, 255, 255));}
+  5%  {background: radial-gradient(rgb(255, 0, 0),rgb(255, 255, 255));}
+  10% {background: radial-gradient(rgb(255, 145, 0),rgb(255, 255, 255));}
+  15% {background: radial-gradient(rgb(255, 196, 0),rgb(255, 255, 255));}
+  20% {background: radial-gradient(rgb(251, 255, 0),rgb(255, 255, 255));}
+  25% {background: radial-gradient(rgb(217, 255, 0),rgb(0, 0, 0));}
+  30% {background: radial-gradient(rgb(115, 255, 0),rgb(0, 0, 0));}
+  35% {background: radial-gradient(rgb(0, 255, 21),rgb(0, 0, 0));}
+  40% {background: radial-gradient(rgb(0, 255, 98),rgb(0, 0, 0));}
+  45% {background: radial-gradient(rgb(0, 255, 191),rgb(0, 0, 0));}
+  50% {background: radial-gradient(rgb(0, 247, 255),rgb(0, 0, 0));}
+  55% {background: radial-gradient(rgb(0, 247, 255),rgb(0, 0, 0));}
+  60% {background: radial-gradient(rgb(0, 204, 255),rgb(0, 0, 0));}
+  65% {background: radial-gradient(rgb(0, 162, 255),#000000);}
+  70% {background: radial-gradient(rgb(0, 81, 255),rgb(0, 0, 0));}
+  75% {background: radial-gradient(rgb(0, 81, 255),rgb(0, 0, 0));}
+  80% {background: radial-gradient(rgb(17, 0, 255),rgb(0, 0, 0));}
+  85% {background: radial-gradient(rgb(17, 0, 255),rgb(0, 0, 0));}
+  90% {background: radial-gradient(rgb(162, 0, 255),rgb(0, 0, 0));}
+  95% {background: radial-gradient(rgb(183, 0, 255),rgb(0, 0, 0));}
+  100% {background: radial-gradient(rgb(255, 0, 221),rgb(0, 0, 0));} 
+}*/
+
+/* @keyframes bg_anim {
+  0%  {background: radial-gradient(rgb(0, 150, 255),rgb(0, 0, 0));}
+  3%  {background: radial-gradient(rgb(0, 135, 255),rgb(0, 0, 0));}
+  6% {background: radial-gradient(rgb(0, 120, 255),rgb(0, 0, 0));}
+  9% {background: radial-gradient(rgb(0, 105, 255),rgb(0, 0, 0));}
+  12% {background: radial-gradient(rgb(0, 90, 255),rgb(0, 0, 0));}
+  15% {background: radial-gradient(rgb(0, 75, 255),rgb(0, 0, 0));}
+  18% {background: radial-gradient(rgb(0,60 , 255),rgb(0, 0, 0));}
+  21% {background: radial-gradient(rgb(0, 45, 255),rgb(0, 0, 0));}
+  24% {background: radial-gradient(rgb(0, 30, 255),rgb(0, 0, 0));}
+  27% {background: radial-gradient(rgb(0, 15, 255),rgb(0, 0, 0));}
+  30% {background: radial-gradient(rgb(0, 0, 255),rgb(0, 0, 0));}
+  33% {background: radial-gradient(rgb(15, 0, 255),rgb(0, 0, 0));}
+  36% {background: radial-gradient(rgb(30, 0, 255),rgb(0, 0, 0));}
+  39% {background: radial-gradient(rgb(45, 0, 255),rgb(0, 0, 0));}
+  42% {background: radial-gradient(rgb(60, 0, 255),rgb(0, 0, 0));}
+  45% {background: radial-gradient(rgb(75, 0, 255),rgb(0, 0, 0));}
+  48% {background: radial-gradient(rgb(90, 0, 255),rgb(0, 0, 0));}
+  51% {background: radial-gradient(rgb(105, 0, 255),rgb(0, 0, 0));}
+  54% {background: radial-gradient(rgb(120, 0, 255),rgb(0, 0, 0));}
+  57% {background: radial-gradient(rgb(135, 0, 255),rgb(0, 0, 0));}
+  60% {background: radial-gradient(rgb(150, 0, 225),rgb(0, 0, 0));}
+  63% {background: radial-gradient(rgb(135, 0, 255),rgb(0, 0, 0));}
+  66% {background: radial-gradient(rgb(120, 0, 255),rgb(0, 0, 0));}
+  69% {background: radial-gradient(rgb(105, 0, 255),rgb(0, 0, 0));}
+  72% {background: radial-gradient(rgb(90, 0, 255),rgb(0, 0, 0));}
+  75% {background: radial-gradient(rgb(75, 0, 255),rgb(0, 0, 0));}
+  78% {background: radial-gradient(rgb(60, 0, 255),rgb(0, 0, 0));}
+  81% {background: radial-gradient(rgb(45, 0, 255),rgb(0, 0, 0));}
+  84% {background: radial-gradient(rgb(30, 0, 255),rgb(0, 0, 0));}
+  87% {background: radial-gradient(rgb(15, 0, 255),rgb(0, 0, 0));}
+  90% {background: radial-gradient(rgb(0, 0, 255),rgb(0, 0, 0));}
+  91% {background: radial-gradient(rgb(0, 15, 255),rgb(0, 0, 0));}
+  92% {background: radial-gradient(rgb(0, 30, 255),rgb(0, 0, 0));}
+  93% {background: radial-gradient(rgb(0, 45, 255),rgb(0, 0, 0));}
+  94% {background: radial-gradient(rgb(0,60 , 255),rgb(0, 0, 0));}
+  95% {background: radial-gradient(rgb(0, 75, 255),rgb(0, 0, 0));}
+  96% {background: radial-gradient(rgb(0, 90, 255),rgb(0, 0, 0));}
+  97% {background: radial-gradient(rgb(0, 105, 255),rgb(0, 0, 0));}
+  98% {background: radial-gradient(rgb(0, 120, 255),rgb(0, 0, 0));}
+  99%  {background: radial-gradient(rgb(0, 135, 255),rgb(0, 0, 0));}
+  100%  {background: radial-gradient(rgb(0, 150, 255),rgb(0, 0, 0));}
+} */
+
+@keyframes bg_anim {
+  0%{background: blue;}
+  50%{background: purple;}
+  100%{background: blue;}
+}
+
+.nav{
+ position: absolute;
+ width: 1000%;
+ height: 50px; 
+ 
+ background-color:rgb(255, 255, 255);
+ opacity: 65%; 
+ padding: 10px 80px 0px 15px;
+ 
+}
+
+.nav a{
+  color: rgb(0, 0, 0);
+  font-family: fantasy;
+  font-style:bold;
+  font-size: 20pt;
+  margin-right: 15px;
+  margin-left: 50px;
+  text-decoration: none;
+  animation-name: nav_anim;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+nav button:active{
+  
+}
+
+@keyframes nav_anim {
+  0%{color:red}
+  50%{color:yellow}
+  100%{color: tomato;}
+}
+
+  #dp{
+    position:absolute;
+    height: 250px;
+    width: 250px;
+    left: 620px;
+    top: 210px;
+    border-radius: 50%;
+    object-fit:cover;
+    border: 4px rgb(255, 255, 255) double;
+    animation-name: dp_anim;
+    animation-duration: 3s;
+  }
+
+  /* #dp:hover{
+    opacity: 50%;
+  } */
+ 
+  @keyframes dp_anim {
+    from{top: 650px;}    
+  }
+
+  .ovrcir{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 210px;
+    left: 620px;
+    border-radius: 50%;
+    background-color:transparent;
+
+  }
+  
+  .ovrcir span{
+    font-family:cursive ;
+    position:relative;
+    top: 100%;
+    left: 70%;
+    font-family: cursive;
+  }
+  
+  .ovrcir:hover{
+    transform: scale(1.4,1.4);
+    transition: ease 2s;
+    opacity: 30%;
+    background-color: whitesmoke;
+  }
