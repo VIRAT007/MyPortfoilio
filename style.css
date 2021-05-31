@@ -1,13 +1,17 @@
 body {
-    margin: 0;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     font-weight: 100;
-    background: radial-gradient(#1900ff,#111422); 
-    animation-name: bg_anim;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-  animation-timing-function: linear;  
-  }
+    /* background: linear-gradient(230deg,#900c2f,#c70039,#ff5733,#ffc30f);       animation:bg_anim 5s ease infinite;  
+    animation-direction:alternate;
+    background-size: 900% 900%;
+    background-repeat: no-repeat;
+     */
+     background-image: url("https://source.unsplash.com/1600x900/?developer,computer,programming,FAANG");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size:cover ;  
+    }
 
 /* @keyframes bg_anim{
   10% {background-color: radial-gradient(#ff0505,#000000)}
@@ -90,45 +94,63 @@ body {
   100%  {background: radial-gradient(rgb(0, 150, 255),rgb(0, 0, 0));}
 } */
 
-@keyframes bg_anim {
+/* @keyframes bg_anim {
   0%{background: blue;}
   50%{background: purple;}
   100%{background: blue;}
-}
+} */
 
-.nav{
- position: absolute;
- width: 1000%;
+/* @keyframes bg_anim {
+  from{background: radial-gradient(#581845,#900c2f,#c70039,#ff5733,#ffc30f);}
+  to{background: radial-gradient(#ffc30f,#581845,#900c2f,#c70039,#ff5733);}
+  40%{background: linear-gradient(#ff5733,#ffc30f,#581845,#900c2f,#c70039,);}
+  60%{background: linear-gradient(#c70039,#ff5733,#ffc30f,#581845,#900c2f,);}
+  80%{background: linear-gradient(#900c2f,#c70039,#ff5733,#ffc30f,#581845,);}
+  100%{background: linear-gradient(#581845,#900c2f,#c70039,#ff5733,#ffc30f,);}
+
+} */
+
+/* @keyframes bg_anim {
+  0%{background-position: 0% 33% }
+  50%{background-position: 34% 67%}
+  100%{background-position: 68% 100%}
+} */
+
+nav{
+ /* position:fixed; */
+ width: 100%;
  height: 50px; 
- 
+ border: 0px;
  background-color:rgb(255, 255, 255);
- opacity: 65%; 
+ opacity: 70%; 
  padding: 10px 80px 0px 15px;
  
-}
-
-.nav a{
-  color: rgb(0, 0, 0);
+ 
+ color:black;
   font-family: fantasy;
   font-style:bold;
   font-size: 20pt;
   margin-right: 15px;
   margin-left: 50px;
   text-decoration: none;
-  animation-name: nav_anim;
+}
+
+body div p{
+  
+  /* animation-name: nav_anim;
   animation-duration: 3s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite; */
 }
 
 nav button:active{
   
 }
 
-@keyframes nav_anim {
+/* @keyframes nav_anim {
   0%{color:red}
   50%{color:yellow}
   100%{color: tomato;}
-}
+} */
 
   #dp{
     position:absolute;
